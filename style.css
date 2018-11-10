@@ -1,0 +1,124 @@
+body {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin: 0px; 
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px
+	color: black;
+}
+
+h3 {
+	color: white ;
+	font-size: 25px; 
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.button-wrapper {
+	background-image: url('images/Background.jpg');
+	padding: 235px;
+    background-size: cover;
+    color: #5BA19B;
+}
+
+.products {
+	width: 400px;
+	display: block;
+}
+
+.banner { 
+background: #5BA19B ;
+background-size: cover;
+ }
+
+ .banner h3 {
+ 	margin: 0px ; 
+ }
+
+.logo {
+	width: 150px;
+	height: 150px;
+}
+
+.logo-container {
+	display:flex;
+	justify-content: center;
+}
+
+.products-container {
+	margin: O auto;
+	float: left;
+	width: 33.33%;
+}
+
+.card-container {
+	display: inline-block;
+}
+
+.button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.main-button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 30px 64px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	margin: 0 auto;
+}
+
+.button:hover {
+	background-color: green;
+	color:  white;
+}
+
+.social i {
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  margin: 55px 25px;
+}
+
+.newsletter-form {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.newsletter-form-title {
+	color: black;
+}
