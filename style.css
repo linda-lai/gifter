@@ -1,11 +1,11 @@
 body {
-font-family: 'Open Sans', sans-serif;
-text-align: center;
-margin: 0px; 
+	font-family: 'Lato Light', sans-serif;
+	text-align: center;
+	margin: 0px; 
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato Light', sans-serif;
 	font-size: 12px
 	color: black;
 }
@@ -18,7 +18,8 @@ h3 {
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: black;
-    overflow: hidden;
+	overflow: hidden;
+	padding: 0.5em;
 }
 
 /* Style the links inside the navigation bar */
@@ -41,7 +42,7 @@ h3 {
 	background-image: url('images/Background.jpg');
 	padding: 235px;
     background-size: cover;
-    color: #5BA19B;
+    color: white;
 }
 
 .products {
@@ -50,12 +51,13 @@ h3 {
 }
 
 .banner { 
-background: #5BA19B ;
+background: black ;
 background-size: cover;
  }
 
  .banner h3 {
- 	margin: 0px ; 
+	 margin: 0px ;
+	 padding: 0.1em;
  }
 
 .logo {
@@ -72,6 +74,7 @@ background-size: cover;
 	margin: O auto;
 	float: left;
 	width: 33.33%;
+	padding: 3em;
 }
 
 .card-container {
@@ -87,7 +90,7 @@ background-size: cover;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin: 0 auto;
+	margin: 3em;
 }
 
 .main-button {
@@ -103,7 +106,7 @@ background-size: cover;
 }
 
 .button:hover {
-	background-color: green;
+	background-color: gray;
 	color:  white;
 }
 
