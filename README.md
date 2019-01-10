@@ -1,6 +1,6 @@
 # Gifter
+An e-commerce test homepage written in HTML & CSS.
 
-## Author
 |[![Linda Lai](/images/contributors-linda-lai-70x70.jpg)](https://github.com/linda-lai) | 
 |-----------|
 | Linda Lai |
